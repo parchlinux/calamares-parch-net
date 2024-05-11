@@ -63,19 +63,6 @@
           - bluez-hid2hci
           - bluez-libs
           - bluez-utils
-      - name: "Browser"
-        description: "Browsers and Proxy"
-        selected: false
-        packages:
-          - firefox
-          - chromium
-          - vivaldi
-          - falkon
-          - angelfish
-          - epiphany
-          - carburetor
-          - dnsch
-          - windscribe-v2-bin
       - name: "packages management"
         description: "Packages tools"
         selected: true
@@ -209,6 +196,36 @@
     - linux-lts-headers
     - linux-zen
     - linux-zen-headers
+- name: "Browser"
+  description: "Browsers and Proxy"
+  selected: false
+  packages:
+    - firefox
+    - chromium
+    - vivaldi
+    - falkon
+    - angelfish
+    - epiphany
+    - carburetor
+    - dnsch
+    - windscribe-v2-bin
+- name: "Productivity"
+  description: "Packages needed for productivity"
+  selected: false
+  packages:
+    - libreoffice-fresh
+    - marknote
+    - folio
+- name: "Media"
+  description: "Packages for Media"
+  selected: false
+  packages:
+    - parch-mpv
+    - mpv
+    - vlc
+    - elisa
+    - juk
+    - celluloid
 - name: "KDE-Desktop"
   description: "KDE-Plasma Desktop - Simple by default, powerful when needed."
   hidden: false

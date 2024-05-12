@@ -1,5 +1,5 @@
 - name: "ParchLinux required (hidden)"
-  description: "needed CachyOS packages"
+  description: "needed ParchLinux packages"
   hidden: true
   selected: true
   critical: true
